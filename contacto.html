@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contacto - Sal&Salsa</title>
+</head>
+<body>
+    <!--Barra de navegación-->
+    <header class="pb-5">
+        <nav class="navbar navbar-expand-sm bg-dark bg-opacity-50">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="" width="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-light" href="#">NOSOTROS</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">MENÚ</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">SERVICIOS</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">CONTÁCTANOS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Redes sociales-->
+
+        <nav class="flex-column float-end bg-secondary">
+            <ul class="list-unstyled text-center">            
+                <li class="nav-item"><a class="nav-link" href="#"><img src="./images/ico-facebook@2x.png" alt=""></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><img src="./images/ico-twitter@2x.png" alt=""></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><img src="./images/ico-youtube@2x.png" alt=""></a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!--Contáctanos-->
+        <div id="contactanos">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <h1 class="display-1">Contáctanos</h1>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-sm">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla, magnam facilis, veniam perspiciatis autem delectus voluptas laboriosam recusandae velit accusamus quod sit sequi? Beatae natus quos eligendi! Ducimus, adipisci.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla, magnam facilis, veniam perspiciatis autem delectus voluptas laboriosam recusandae velit accusamus quod sit sequi? Beatae natus quos eligendi! Ducimus, adipisci.</p>
+                    </div>
+                    <!--Formulario-->
+                    <div class="col-sm">
+                        <form class="needs-validation" novalidate>
+                            <div class="mb-3">
+                                <select class="form-select" required>
+                                    <option value="">Selecciona el servicio</option>
+                                    <option value="1">Celebración de cumpleaños</option>
+                                    <option value="2">Aniversarios</option>
+                                    <option value="3">Fiestas infantiles</option>
+                                    <option value="4">Declaraciones o propuestas</option>
+                                    <option value="5">Despedidas</option>
+                                    <option value="6">Cena con amigos</option>
+                                  </select>
+                                  <div class="invalid-feedback">
+                                    Debe seleccionar una opción
+                                  </div>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" type="text" placeholder="Asunto" id="validationCustom02" required>
+                                <div class="invalid-feedback">
+                                    Introduzca un asunto válido
+                                  </div>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" type="text" placeholder="Nombre completo" id="validationCustom01" required>
+                                <div class="invalid-feedback">
+                                    Introduzca un nombre válido
+                                  </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Correo electrónico" id="validationEmail" aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback">
+                                    Introduzca un correo válido
+                                  </div>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Tu mensaje" rows="5" required></textarea>
+                                <div class="invalid-feedback">
+                                    Debe escribir un mensaje
+                                  </div>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" value="" id="invalidCheck" required>
+                                    <label for="invalidCheck" class="form-check-label">
+                                        Acepto <a href="#">términos y condiciones</a>
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        Debe aceptar los términos para continuar
+                                      </div>
+                            </div>
+                            <div class="text-center align-items-center pt-2">
+                                <button type="submit" class="btn btn-secondary w-75" id="submit-button">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer class="text-light bg-primary pt-5 pb-5" id="pageFooter">
+        <div class="container">
+            <nav class="row align-top">
+                <div class="col-sm align-bottom">
+                    <a href="#">
+                        <img src="images/logo@2x.png" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-sm">
+                    <div class="row align-top">
+                        <a href="#" class="nav-link text-light">MAPA DEL SITIO</a></div>
+                        <div class="row pt-3">
+                            <p>Restaurante Sal y Salsa Ltda <br> Calle 19 No.7 - 30, Bogotá <br> reservas@salysalsa.com <br> 31232525321</p>
+                            <p>&copy Copyright 2020</p></div>
+                </div>
+                
+                <div class="col-sm ">
+                    <a href="#" class="nav-link text-light">CONTÁCTANOS</a></div>
+                <div class="col-sm ">
+                    <a href="#" class="nav-link text-light">RESERVAS</a></div>
+                <div class="col-sm align-bottom">
+                    <!--Mapas de google-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.233853015086!2d-74.07245847077579!3d4.605586636565395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a1ed5e8c65%3A0xa01f9828076bdb93!2sCl.%2019%20%237-2%20a%207-98%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1631656301345!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js" ></script>
+    <script src="./js/formValidation.js"></script>
+</body>
+</html>
