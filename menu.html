@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Restaurante G8</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="css/estilo.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+  <header>
+    <!--Barra de Navegación-->
+    <nav class="navbar navbar-expand-lg navbar-light   bg-light" id="menu_nav"> 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><b>HOME</b></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="quienes_somos.html"><b>NOSOTROS</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html"><b>MENÚ</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="servicios.html"><b>SERVICIOS</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html"><b>CONTÁCTANOS</b></a>
+          </li>
+          <li>
+            <img src="images/logo.png" style="width: 20%">
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <table class="default" width="100%">
+      <tr>
+        <td align="center"><h1>El menú</h1></td>
+        <td align="center"><a href="images/menu@2x.png" download="MenuSal&Salsa.png" target="_blank"><button style="margin: auto; background-color: orange; color: white;">Descarga nuestro Menú</button></a></td>
+      </tr>
+    </table>
+    <table class="default" width="100%">
+      <tr>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu1@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 1</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter1">Plato 1</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu2@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 2</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter2">Plato 2</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu3@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 3</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter3">Plato 3</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu4@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 4</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter4">Plato 4</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu5@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 5</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter5">Plato 5</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu1@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 6</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter6">Plato 6</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu2@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 7</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter7">Plato 7</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu3@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 8</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter8">Plato 8</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu5@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 9</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter9">Plato 9</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu1@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 10</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter10">Plato 10</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu2@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 11</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter11">Plato 11</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table class="default" width="100%">
+            <tr>
+              <td align="right"><img src="images/menu3@2x.png" style="width: 25vh;"></td>
+              <td>
+                <h3>Plato 12</h3>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter12">Plato 12</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>         
+    </table>
+  </div>
+
+  <!--Ventana 1-->
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu1@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Ventana 2-->
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu2@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Ventana 3-->
+<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 3</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu3@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Ventana 4-->
+<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 4</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu4@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!--Ventana 5-->
+<div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 5</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu5@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Ventana 6-->
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 6</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu1@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Ventana 7-->
+<div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 7</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu2@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Ventana 8-->
+<div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 8</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu3@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!--Ventana 9-->
+<div class="modal fade" id="exampleModalCenter9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 9</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu4@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Ventana 10-->
+<div class="modal fade" id="exampleModalCenter10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 10</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu5@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Ventana 11-->
+<div class="modal fade" id="exampleModalCenter11" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 11</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu1@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Ventana 12-->
+<div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Plato 12</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="default" width="100%">
+          <tr>
+            <td align="right"><img src="images/menu2@2x.png" style="width: 25vh;"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <footer class="text-light bg-primary pt-5 pb-5" id="pageFooter">
+        <div class="container">
+            <nav class="row align-top">
+                <div class="col-sm align-bottom">
+                    <a href="index.html">
+                        <img src="images/logo@2x.png" alt="" class="img-fluid"></a>
+                </div>
+                <div class="col-sm">
+                    <div class="row align-top">
+                        <a href="mapa.html" class="nav-link text-light">MAPA DEL SITIO</a></div>
+                        <div class="row pt-3">
+                            <p>Restaurante Sal y Salsa Ltda <br> Calle 19 No.7 - 30, Bogotá <br> reservas@salysalsa.com <br> 31232525321<br><a href="facebook.com" style="color: white;">Facebook</a><br>
+                            <a href="twitter.com" style="color: white;">Twitter</a><br>
+                            <a href="youtube.com" style="color: white;">Youtube</a></div></p>
+                            <p>&copy Copyright 2020</p><br>
+                     </div>
+                
+                <div class="col-sm ">
+                    <a href="contacto.html" class="nav-link text-light">CONTÁCTANOS</a></div>
+                <div class="col-sm ">
+                    <a href="contacto.html" class="nav-link text-light">RESERVAS</a></div>
+                <div class="col-sm align-bottom">
+                    <!--Mapas de google-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.233853015086!2d-74.07245847077579!3d4.605586636565395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99a1ed5e8c65%3A0xa01f9828076bdb93!2sCl.%2019%20%237-2%20a%207-98%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1631656301345!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
