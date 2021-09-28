@@ -9,7 +9,7 @@ $telefono_reserva=$_POST['telefono_reserva'];
 $servicio_reserva=$_POST['servicio_reserva'];
 $npersonas_reserva=$_POST['npersonas_reserva'];
 $fh_reserva=$_POST['fh_reserva'];
-$comentarios_reserva=$_POST['comentarios_reserva']
+$comentarios_reserva=$_POST['comentarios_reserva'];
 
 /*Encabezado*/
 $header = 'From: jaot037@gmail.com '."\r\n";
